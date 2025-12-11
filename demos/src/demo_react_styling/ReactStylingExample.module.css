@@ -1,0 +1,58 @@
+/* Container-Layout für das Beispiel */
+.container {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.75rem;
+  background-color: #fafafa;
+}
+
+/* Überschrift */
+.title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Fließtext */
+.text {
+  margin-bottom: 0.75rem;
+}
+
+/* Zeile, in der die Badges nebeneinander angezeigt werden */
+.badgeRow {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Basis-Styling für alle Badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Varianten abhängig vom Status (BEM-ähnliches Naming möglich) */
+.badgeSuccess {
+  background-color: #e6ffed;
+  color: #0f6300;
+}
+
+.badgeWarning {
+  background-color: #fff8e1;
+  color: #8a6d00;
+}
+
+.badgeError {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+/* Zusatzhinweis-Text */
+.hint {
+  font-size: 0.8rem;
+  color: #666666;
+}
